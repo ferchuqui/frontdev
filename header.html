@@ -149,18 +149,22 @@
     .carousel-item__details:hover{
         opacity: 1;
     }
-    .carousel-item__detailsimg{
+    .carousel-item__details img{
         height: 20px;
         width: 20px;
-    } 
+    }
     .carousel-item__detailsp{
         margin: 0px;
     }
     .carousel-item__details--title{
+      color: white;
         font-weight: bold;
+        font-size: 6px;
     }
     .carousel-item__details--subtitle{
-        font-size: 8px;
+        font-size: 7px;
+        color: white;
+    }
   </style>
   <body>
     <header class="header">
@@ -198,11 +202,13 @@
           <div class="carousel-item__details">
             <div>
               <img src="./images/icons8-play-64.png" alt="Play" />
-              <img src="./images/icons8-más-menos-2-48.png" alt="Plus" />
+              <img src="./images/icons8-plus.png" alt="Plus" />
             </div>
+              <p class="carousel-item__details--title">Titulo descriptivo</p>
+              <p class="carousel-item__details--subtitle">2019 16+ 26 minutos</p>
+            
           </div>
-          <p class="carousel-item__details--title">Titulo descriptivo</p>
-          <p class="carousel-item__details--subtitle">2019 16+ 26 minutos</p>
+
         </div>
         <div class="carousel-item"></div>
       </div>
