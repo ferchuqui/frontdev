@@ -65,7 +65,7 @@ ul:hover {
   font-size: 25px;
   text-align: center
 }
-.input {
+.search {
   background-color: rgba(255,255,255,0.1);
   border 2px solid white;
   border-radius: 25px;
@@ -169,6 +169,13 @@ color: white;
   padding: 60px 68px 40px;
   min-height: 700px;
   width: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  /* width: 100%; */
 }
 .login__container-form {
   display: flex;
@@ -193,8 +200,66 @@ color: white;
   text-decoration: underline;
  }
  .login__container--social-media >div {
-display: flex;
 align-items: center;
+display: flex;
 font-size: 14px;
 margin-bottom: 10px;
  }
+ .login__container--social-media >div img{
+margin-right: 10px;
+width: 30px;
+   }
+   .login__container-register {
+     font-size: 14px;
+   }
+   .login__container-register a {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .login__container-register a:hover {
+    text-decoration: underline;
+  }
+.input {
+  background-color: transparent;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 2px solid white;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  outline: none;
+  height: 50px;
+}
+::placeholder {
+  color: white;
+
+}
+.button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  text-align: center;
+}
+.footer a {
+color: white;
+font-size: 14px;
+cursor: pointer;
+padding-left: 30px;
+text-decoration: none;
+}
+.footer a:hover {
+
+  text-decoration: underline;
+  }
